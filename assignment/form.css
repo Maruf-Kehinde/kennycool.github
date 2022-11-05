@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 100px;
+    max-height: 100px;
+    background-color: beige;
+    position: relative;
+    display: flex;
+}
+table{
+    display: flex;
+    background-color: blueviolet;
+    margin: 150%;
+    margin-top: 50px;
+    border-radius: 10px;
+    align-items: center;
+    max-width: 80%;
+
+
+}
+.fo{
+    padding: 30px;
+    
+    
+}
+.click{
+    display:flex;
+    align-items: center;
+    color: #fff;
+}
+a {
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    background: gray;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin: 30px;
+}
+a:hover{
+    transform: translate(red);
+    color: rebeccapurple;
+}
